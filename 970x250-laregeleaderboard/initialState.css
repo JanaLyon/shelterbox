@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+#loading_dc
+{
+    width:100%;
+    height:100%;
+    background-color:black;
+    z-index:10;
+}
+#loading_image_dc
+{
+    position:absolute;
+    left:50%;
+    margin-left:-20px;
+    top:50%;
+    margin-top:-20px;
+}
+#container_dc{
+    display:none;
+    z-index:20;
+    background-color: #000000;
+    border: solid 1px #000000;
+    margin: auto;
+    overflow: hidden;
+}
+#content_dc {
+    border: 0;
+}
+.off_screen{
+    position:absolute;
+    left:-300px;
+}
+.pos_top{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.pos_bottom{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
